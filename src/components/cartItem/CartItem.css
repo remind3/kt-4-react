@@ -1,0 +1,36 @@
+.container-item {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  gap: 30px;
+  border: 1px solid #000000;
+  border-radius: 16px;
+  width: fit-content;
+}
+
+.quantity-section {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.quantity-btn {
+  background-color: #3827f8;
+  border: 1px solid #dddddd;
+  width: 58px;
+  height: 58px;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 16px;
+  color: #fff;
+}
+
+.quantity-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.container-item-title {
+  font-size: 32px;
+  margin: 0;
+}
